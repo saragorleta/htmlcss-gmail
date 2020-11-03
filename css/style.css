@@ -1,0 +1,51 @@
+body{
+background-image: url(../img/sfondo.jpg);
+background-size: cover;
+}
+
+/* inizio header top*/
+.container{
+margin-left: 150px;
+margin-right:150px;
+}
+
+.img-logo{
+  width: 100px;*/ quando modifichiamo un img e meglio lavorare solo su una misura
+  height: 100px;
+  vertical-align:middle;
+}
+.gmail {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* inizio header bottom */
+
+.p-30unread{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;  /*serve per allineare il testo e crea spazio tra sopra e sotto*/
+}
+
+.unread{
+  background-color:orange;
+  height:60px;
+  width: 60px; /*non si puo' inserire altezza e larghezza ad elementi spam !!da ricordare prox esercizi */
+  border-radius: 10px;
+}
+/* inizio caselle */
+
+.casella{
+  border: 1px solid black;
+  background-color:rgb(158, 163, 189);
+}
+.casella-read{
+  border: 1px solid black;
+  background-color:white;
+}
+.footer{
+  text-align: center;
+  color:white;
+}
